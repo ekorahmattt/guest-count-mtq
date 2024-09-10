@@ -1,8 +1,6 @@
 import cv2
 import socketio
 import requests
-import os
-from dotenv import load_dotenv
 from pytz import timezone
 from datetime import datetime
 from libraries.centroidtracker import CentroidTracker
