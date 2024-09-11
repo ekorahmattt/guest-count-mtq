@@ -19,7 +19,7 @@ SOCKET_LINK = "http://116.193.191.157:8081"
 SAVED_COUNT = 'http://116.193.191.157:8081/database/history/HKCCTV_DH001/guest_count/'
 format_date = "%d_%m_%Y"
 
-vanue = "Bigmall"
+vanue = "Convention Hall - GOR Kadrie Oening (Pintu Masuk)"
 
 tracker = CentroidTracker(maxDisappeared=80, maxDistance=90)
 sio = socketio.Client()
