@@ -15,7 +15,7 @@ configPath = "models/ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt"
 weightsPath = "models/frozen_inference_graph.pb"
 
 PATH_CAM = "rtsp://admin:admin1234@192.168.8.101:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif"
-SOCKET_LINK = "http://116.193.191.157:8081"
+SOCKET_LINK = "http://116.193.191.157:8081" 
 SAVED_COUNT = 'http://116.193.191.157:8081/database/history/HKCCTV_DH001/guest_count/'
 format_date = "%d_%m_%Y"
 
@@ -106,7 +106,7 @@ if __name__ == "__main__":
                 if to is None:
                     to = TrackableObject(objId, centroid)
                 else:
-                    y = [c[1] for c in to.centroids]
+                    y = [c[0] for c in to.centroids]
                     to.centroids.append(centroid)
 
                     if not to.counted:
