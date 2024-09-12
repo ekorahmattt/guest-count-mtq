@@ -16,7 +16,7 @@ weightsPath = "models/frozen_inference_graph.pb"
 
 PATH_CAM = "rtsp://admin:admin1234@192.168.8.101:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif"
 SOCKET_LINK = "http://116.193.191.157:8081" 
-SAVED_COUNT = 'http://116.193.191.157:8081/database/history/HKCCTV_DH001/guest_count/'
+SAVED_COUNT = 'http://116.193.191.157:8081/database/history/HKCCTV_IM001_IN/guest_count/'
 format_date = "%d_%m_%Y"
 
 vanue = "Convention Hall - GOR Kadrie Oening (Pintu Masuk)"
