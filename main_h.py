@@ -111,10 +111,10 @@ if __name__ == "__main__":
 
                     if not to.counted:
                         if y[0] > W//2 and centroid[0] < W//2:
-                            people_out+=1
+                            people_in+=1
                             to.counted = True
                         elif y[0] < W//2 and centroid[0] > W//2:
-                            people_in+=1
+                            people_out+=1
                             to.counted = True
 
                 trackableObjects[objId] = to
